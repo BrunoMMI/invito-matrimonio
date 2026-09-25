@@ -1,0 +1,246 @@
+﻿<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Davide &amp; Amalia · 13 dicembre 2026</title>
+  <meta name="description" content="Davide Del Basso e Amalia Zoccolillo si sposano domenica 13 dicembre 2026. Nel cuore del bosco, tra le montagne del Matese: l'Orso e la Volpe vi invitano a festeggiare.">
+  <meta name="theme-color" content="#1F4B33">
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="it_IT">
+  <meta property="og:title" content="Davide &amp; Amalia · 13 dicembre 2026">
+  <meta property="og:description" content="L'Orso e la Volpe hanno scelto di camminare insieme. Vi invitano nel giorno incantato del loro matrimonio.">
+  <meta property="og:image" content="assets/img/og.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Davide & Amalia, 13 dicembre 2026: l'Orso e la Volpe nel bosco innevato">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400;0,500;0,700;1,400;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+
+<!-- Ornamenti: ramo di agrifoglio riusabile -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <g id="leaf">
+      <path d="M0 0 C-6 -3 -12 -8 -14 -14 L-20 -15 C-15 -19 -14 -23 -14 -25 L-21 -30 C-15 -33 -13 -37 -12 -40 L-17 -47 C-11 -49 -8 -55 -6 -60 L-2 -70 L0 -73 L2 -70 L6 -60 C8 -55 11 -49 17 -47 L12 -40 C13 -37 15 -33 21 -30 L14 -25 C14 -23 15 -19 20 -15 L14 -14 C12 -8 6 -3 0 0 Z"
+            style="fill:var(--leaf-fill);stroke:var(--leaf-stroke)" stroke-width="1.1" stroke-linejoin="round"/>
+      <path d="M0 -2 L0 -66 M0 -14 L-11 -22 M0 -14 L11 -22 M0 -30 L-9 -38 M0 -30 L9 -38 M0 -46 L-6 -52 M0 -46 L6 -52" style="stroke:var(--leaf-stroke)" stroke-width=".7" fill="none" stroke-linecap="round"/>
+    </g>
+    <g id="holly">
+      <use href="#leaf" transform="rotate(-70) scale(.9)"/>
+      <use href="#leaf" transform="rotate(70) scale(.9)"/>
+      <use href="#leaf" transform="rotate(-36) scale(1.0)"/>
+      <use href="#leaf" transform="rotate(36) scale(1.0)"/>
+      <use href="#leaf" transform="scale(1.08)"/>
+      <g style="fill:var(--red)">
+        <circle cx="-7" cy="-4" r="6.5"/><circle cx="7" cy="-4" r="6.5"/><circle cx="0" cy="-12" r="6.5"/>
+      </g>
+      <g fill="#fff" opacity=".55">
+        <circle cx="-9" cy="-6" r="1.6"/><circle cx="5" cy="-6" r="1.6"/><circle cx="-2" cy="-14" r="1.6"/>
+      </g>
+    </g>
+  </defs>
+</svg>
+
+<a class="skip" href="#invito">Vai al contenuto</a>
+
+<!-- 1. HERO -->
+<header class="hero" id="top">
+  <svg class="hero__holly hero__holly--tr" viewBox="-72 -88 144 104" aria-hidden="true"><use href="#holly"/></svg>
+  <svg class="hero__holly hero__holly--bl" viewBox="-72 -88 144 104" aria-hidden="true"><use href="#holly"/></svg>
+  <div class="lights" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+
+  <div class="hero__ribbon" aria-hidden="true"><span></span><span></span></div>
+
+  <div class="hero__inner">
+    <p class="hero__kicker">l’Orso e la Volpe si sposano</p>
+    <h1 class="monogram" aria-label="Davide e Amalia">D<span>&amp;</span>A</h1>
+    <p class="hero__names">Davide <em>&amp;</em> Amalia</p>
+    <p class="hero__date">
+      <span>Domenica</span>
+      <strong>13 Dicembre 2026</strong>
+    </p>
+  </div>
+  <a class="hero__scroll" href="#invito" aria-label="Scorri verso l'invito"><span></span></a>
+</header>
+
+<main>
+
+  <!-- 2. COUNTDOWN -->
+  <section class="countdown" aria-labelledby="cd-title">
+    <div class="wrap reveal">
+      <h2 id="cd-title" class="eyebrow eyebrow--light">Il conto alla rovescia</h2>
+      <div class="cd" id="countdown" role="timer" aria-label="Tempo mancante alla cerimonia">
+        <div><b id="cd-d">--</b><span>Giorni</span></div>
+        <div><b id="cd-h">--</b><span>Ore</span></div>
+        <div><b id="cd-m">--</b><span>Minuti</span></div>
+        <div><b id="cd-s">--</b><span>Secondi</span></div>
+      </div>
+      <p class="cd-msg" id="cd-msg" hidden></p>
+    </div>
+  </section>
+
+  <!-- 3. TESTO DELL'INVITO -->
+  <section class="section invite" id="invito">
+    <div class="wrap wrap--narrow reveal">
+      <p class="lead">
+        Nel cuore del bosco,<br>
+        tra le montagne del Matese,<br>
+        <em>l’Orso e la Volpe</em><br>
+        hanno scelto di camminare insieme.
+      </p>
+      <p class="lead">
+        Con gioia vi invitano<br>
+        nel giorno incantato del loro matrimonio.
+      </p>
+      <p class="lead lead--date">
+        <em>Domenica 13 dicembre 2026 &ndash; ore 11:00</em>
+      </p>
+      <svg class="divider" viewBox="-100 -58 200 76" aria-hidden="true">
+        <g>
+          <use href="#leaf" transform="rotate(-72) scale(.95)"/>
+          <use href="#leaf" transform="rotate(-108) scale(.95)"/>
+          <use href="#leaf" transform="rotate(-90) scale(1.1)"/>
+          <use href="#leaf" transform="rotate(72) scale(.95)"/>
+          <use href="#leaf" transform="rotate(108) scale(.95)"/>
+          <use href="#leaf" transform="rotate(90) scale(1.1)"/>
+          <g style="fill:var(--red)"><circle cx="-8" cy="-3" r="6.5"/><circle cx="8" cy="-3" r="6.5"/><circle cx="0" cy="-11" r="6.5"/></g>
+          <g fill="#fff" opacity=".55"><circle cx="-10" cy="-5" r="1.6"/><circle cx="6" cy="-5" r="1.6"/><circle cx="-2" cy="-13" r="1.6"/></g>
+        </g>
+      </svg>
+      <p class="lead">
+        Dopo la cerimonia<br>
+        vi guideranno tra sentieri e luci d’inverno<br>
+        fino al Castello di Faicchio &ndash; BN,<br>
+        dove il bosco intero si riunirà per festeggiare.
+      </p>
+      <p class="signature">Davide Del Basso <span>&amp;</span> Amalia Zoccolillo</p>
+    </div>
+  </section>
+
+  <!-- 4. CERIMONIA -->
+  <section class="section place" id="cerimonia" aria-labelledby="t-cerimonia">
+    <div class="wrap reveal">
+      <p class="eyebrow">La cerimonia</p>
+      <h2 id="t-cerimonia" class="title">Santuario<br>Ave Gratia Plena</h2>
+      <p class="when">Domenica 13 dicembre 2026 &middot; ore 11:00</p>
+      <p class="where">Piedimonte Matese &ndash; CE</p>
+      <figure class="photo photo--tall">
+        <img src="assets/img/chiesa-1.webp" width="1000" height="1778" loading="lazy" decoding="async"
+             alt="Facciata barocca color crema del Santuario Ave Gratia Plena a Piedimonte Matese, con il portale in marmo e il grande portone scuro">
+      </figure>
+      <a class="btn btn--primary" target="_blank" rel="noopener"
+         href="https://www.google.com/maps/search/?api=1&query=Santuario+Ave+Gratia+Plena+Piedimonte+Matese">Apri in Google Maps</a>
+    </div>
+  </section>
+
+  <!-- 5. RICEVIMENTO -->
+  <section class="section place place--alt" id="ricevimento" aria-labelledby="t-ricevimento">
+    <div class="wrap reveal">
+      <p class="eyebrow">Il ricevimento</p>
+      <h2 id="t-ricevimento" class="title">Castello<br>di Faicchio</h2>
+      <p class="when">Dopo la cerimonia</p>
+      <p class="where">Faicchio &ndash; BN</p>
+      <figure class="photo">
+        <img src="assets/img/castello-1.webp" width="1600" height="1072" loading="lazy" decoding="async"
+             alt="Il Castello di Faicchio: due grandi torrioni in pietra e, sulla scalinata d'ingresso, un tappeto rosso">
+      </figure>
+      <a class="btn btn--primary" target="_blank" rel="noopener"
+         href="https://www.google.com/maps/search/?api=1&query=Castello+di+Faicchio">Apri in Google Maps</a>
+    </div>
+  </section>
+
+  <!-- 6. CALENDARIO -->
+  <section class="section calendar" aria-labelledby="t-cal">
+    <div class="wrap wrap--narrow reveal">
+      <h2 id="t-cal" class="title title--sm">Segnate questa data<br>sul calendario</h2>
+      <p class="when">Domenica 13 dicembre 2026 &middot; ore 11:00</p>
+      <div class="btns">
+        <button class="btn btn--primary" type="button" id="btn-ics">Aggiungi al calendario</button>
+        <a class="btn btn--ghost" id="btn-gcal" target="_blank" rel="noopener" href="#">Google Calendar</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. SAVE THE DATE -->
+  <section class="section std" aria-labelledby="t-std">
+    <div class="wrap wrap--narrow reveal">
+      <p class="eyebrow">Save the date</p>
+      <h2 id="t-std" class="title title--sm">Dal bosco arriva<br>una grande notizia</h2>
+      <figure class="tag">
+        <img src="assets/img/orso-volpe.webp" width="1000" height="827" loading="lazy" decoding="async"
+             alt="Illustrazione: un orso bruno abbraccia una volpe in un bosco innevato, tra rami di agrifoglio">
+        <figcaption>Davide &amp; Amalia<small>13 Dicembre 2026</small></figcaption>
+      </figure>
+      <p class="lead">
+        L’Orso e la Volpe si sposano!<br>
+        Tenetevi pronti, una piccola luce tra gli alberi vi guiderà fino alla festa.
+      </p>
+      <video class="video" controls preload="none" playsinline
+             poster="assets/img/orso-volpe.webp" aria-label="Video Save the date di Davide e Amalia">
+        <source src="assets/video/save-the-date.mp4" type="video/mp4">
+      </video>
+    </div>
+  </section>
+
+  <!-- 8. RSVP -->
+  <section class="section rsvp" id="rsvp" aria-labelledby="t-rsvp">
+    <div class="wrap wrap--narrow reveal">
+      <p class="eyebrow">Conferma la presenza</p>
+      <h2 id="t-rsvp" class="title title--sm">Entro il 15 Novembre 2026</h2>
+      <p class="lead">
+        Vi preghiamo di confermare la vostra presenza<br>
+        entro il <em>15 Novembre 2026</em>,<br>
+        comunicandoci eventuali allergie<br>
+        o intolleranze alimentari.
+      </p>
+      <div class="btns">
+        <a class="btn btn--primary" target="_blank" rel="noopener" id="wa-davide" href="#">Davide su WhatsApp</a>
+        <a class="btn btn--primary" target="_blank" rel="noopener" id="wa-amalia" href="#">Amalia su WhatsApp</a>
+      </div>
+      <p class="contacts">
+        <span class="nb">Davide: <a href="tel:+393285833058">3285833058</a></span>
+<span class="nb">Amalia: <a href="tel:+393401817007">3401817007</a></span>
+      </p>
+    </div>
+  </section>
+
+  <!-- 9. REGALO / IBAN -->
+  <section class="section gift" id="regalo" aria-labelledby="t-gift">
+    <div class="wrap wrap--narrow reveal">
+      <p class="eyebrow">Il regalo</p>
+      <h2 id="t-gift" class="title title--sm">Il regalo più grande<br>sarà festeggiare insieme</h2>
+      <p class="lead">
+        Per chi volesse aiutarci<br>a realizzare un nostro sogno:
+      </p>
+      <div class="iban">
+        <span class="iban__label">IBAN</span>
+        <code id="iban" data-iban="IT21T0305801604100571892384">IT21 T030 5801 6041 0057 1892 384</code>
+        <span class="iban__holder">Intestato a Davide Del Basso</span>
+      </div>
+      <button class="btn btn--primary" type="button" id="btn-copy">Copia IBAN</button>
+      <p class="copy-status" id="copy-status" role="status" aria-live="polite"></p>
+    </div>
+  </section>
+
+</main>
+
+<!-- 10. FOOTER -->
+<footer class="footer">
+  <svg class="footer__holly" viewBox="-72 -88 144 104" aria-hidden="true"><use href="#holly"/></svg>
+  <p class="monogram monogram--sm" aria-hidden="true">D<span>&amp;</span>A</p>
+  <p class="footer__names">Davide Del Basso &amp; Amalia Zoccolillo</p>
+  <p class="footer__date">13 dicembre 2026</p>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
